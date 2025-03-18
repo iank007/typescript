@@ -1,0 +1,7 @@
+> npm i -g typescript
+
+compile into .js
+> tsc index.ts
+
+create tsconfig.json
+> tsc --init
