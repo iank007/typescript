@@ -1,0 +1,14 @@
+# _TS
+
+> npm i -g typescript
+
+compile into .js
+> tsc index.ts
+
+create tsconfig.json
+> tsc --init
+
+# my-nest-app
+> npm install -g @nestjs/cli
+> nest new my-nest-app
+> > > installing took quite time (compared to vite)

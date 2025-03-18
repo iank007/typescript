@@ -1,3 +1,4 @@
-# Ignore compiled JavaScript files
+# Compiled JavaScript files and build output
+dist/
 *.js
 *.js.map
