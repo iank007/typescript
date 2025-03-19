@@ -12,3 +12,23 @@ create tsconfig.json
 > npm install -g @nestjs/cli
 > nest new my-nest-app
 > > > installing took quite time (compared to vite)
+
+## folder structure
+my-nest-app/
+│── src/
+│   ├── app.controller.ts   # Handles requests
+│   ├── app.module.ts       # Root module
+│   ├── app.service.ts      # Business logic
+│   ├── main.ts             # Entry point
+│── package.json
+│── tsconfig.json
+
+> nest generate controller users
+> > or 
+> nest g co users
+
+> nest generate service users
+> > or 
+> nest g s users
+
+> nest generate middleware logger
