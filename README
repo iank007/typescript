@@ -20,6 +20,12 @@ my-nest-app/
 │   ├── app.module.ts       # Root module
 │   ├── app.service.ts      # Business logic
 │   ├── main.ts             # Entry point
+│── src/logger/
+|   ├── *middleware*
+│── src/transform/
+|   ├── *interceptor*
+│── src/users/
+|   ├── *user controllers*
 │── package.json
 │── tsconfig.json
 
@@ -32,3 +38,5 @@ my-nest-app/
 > nest g s users
 
 > nest generate middleware logger
+
+> nest generate interceptor transform
